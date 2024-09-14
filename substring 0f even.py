@@ -1,3 +1,4 @@
+# Function to extract characters from even levels (even indices)
 def even_level_substring(input_string):
     # Extract characters at even indices using slicing
     even_level_string = input_string[::2]
